@@ -1,0 +1,44 @@
+/* src/components/Home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.home-header {
+    margin-bottom: 40px;
+}
+
+.room-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.room-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.room-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.room-card h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.room-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}

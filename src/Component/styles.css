@@ -1,0 +1,38 @@
+App.css .header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.search-bar {
+    margin: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    /* Adjust height as needed */
+    text-align: center;
+}

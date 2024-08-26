@@ -1,0 +1,35 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f4f4f4;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.profile-header {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-details p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.login-warning {
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}

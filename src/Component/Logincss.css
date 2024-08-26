@@ -1,0 +1,28 @@
+/* Home.css */
+.home-page-content {
+    background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg');
+    /* Replace with your image path or URL */
+    background-size: cover;
+    /* Ensure the image covers the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating the image */
+    min-height: 100vh;
+    /* Ensure it covers the full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Adjust text color for better visibility */
+}
+
+.auth-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    width: 28%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
